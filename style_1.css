@@ -1,6 +1,7 @@
 
 body{
     margin: 0;
+    max-width: 1440px;
     font-family: 'Roboto';
 }
 .learning_page{
@@ -51,8 +52,8 @@ body{
     font-size: 16px;
 }
 .side_bar .nav_icon {
-    /* height: 40px;
-    width: 24px; */
+    height: 40px;
+    width: 24px; 
     font-size: 20px;
 }
 
@@ -116,7 +117,7 @@ input#search_box {
     width: 30px;
     border-radius: 50%;
     border: 1px solid gray;
-    background-image: url(profile_domo.jpeg);
+    background-image: url(IMG_20220427_223938_379\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -151,7 +152,7 @@ p {
 }
 
 .learning_5_card>* {
-    width: 230px;
+    width: 100%;
     height: 140px;
     /* text-align: center; */
     background-color: rgba(204, 204, 204, 1);
@@ -177,10 +178,12 @@ button.learn_more_btn {
 .learning_5_card {
     display: grid;
     grid-template-columns: auto auto auto;
-    width: 70%;
+    width: 68%;
     row-gap: 60px;
     /* grid-template-rows: auto auto; */
     margin: 100px auto;
+    /* background-color: lightblue; */
+    column-gap: 10px;
 }
 
 .learning_card:nth-child(4),
@@ -193,6 +196,6 @@ button.learn_more_btn {
     /* justify-self: center; */
     /* height: 100px; */
     position: relative;
-    left: 170px;
+    left: 134px;
 }
 
