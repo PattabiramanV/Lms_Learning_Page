@@ -199,3 +199,6 @@ button.learn_more_btn {
     left: 134px;
 }
 
+button:hover{
+    cursor: pointer;
+}
